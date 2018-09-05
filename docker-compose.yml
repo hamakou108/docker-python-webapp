@@ -9,7 +9,7 @@ services:
     env_file:
       - "commons.env"
     volumes:
-      - ./app:/code
+      - ./app/src:/code
     ports:
       - "8000:8000"
     restart: always
